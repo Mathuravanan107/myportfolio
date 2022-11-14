@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* header section start*/
+header{
+	position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    overflow-y: auto;
+}
+nav{
+	margin-top:10rem;
+}
+.nav-menu{
+	padding:0;
+}
+nav ul li a{
+	text-decoration:none;
+	line-height:5px;
+}
+ul {
+    padding-left: 0 !important;
+}
+nav iconify-icon{
+	color: #45505b;
+    background: #f2f3f5;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    border-radius: 50px;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li{
+	position:relative;
+}
+.nav-menu iconify-icon:hover{
+	color: #fff;
+    background: #0563bb;
+}
+/* benner section */
+#hero{
+	padding-left:14rem;
+}
+.clean h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45505b;
+	font-family:"ralway" ,sans-serif;
+}
+.clean p{
+	color: #45505b;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+#hero .clean{
+	margin-top:12rem;
+}
+#hero .moon a{
+	margin-top:1rem;
+	font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s
+}
+/* About section start  */
+main{
+	padding-left:14rem;
+}
