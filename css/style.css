@@ -47,7 +47,7 @@ nav li{
 }
 /* benner section */
 #hero{
-	padding-left:14rem;
+	padding-bottom:2rem;
 }
 .clean h1{
     font-size: 64px;
@@ -76,5 +76,11 @@ nav li{
 }
 /* About section start  */
 main{
-	padding-left:14rem;
+	margin-top:3.4rem;
+}
+#about h4{
+	font-size:2rem;
+}
+#about p{
+	font-size:1.2rem;
 }
