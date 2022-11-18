@@ -50,8 +50,7 @@ nav li{
 .nav-menu iconify-icon:hover{
 	color: #fff;
     background: #0563bb;
-}
-	
+}	
 /* benner section */
 #hero{
 	padding-bottom:2rem;
@@ -112,6 +111,7 @@ main{
 }
 #about h4{
 	font-size:2rem;
+	position:relative;
 }
 #about p{
 	font-size:1.2rem;
@@ -130,18 +130,33 @@ main{
 border{
 	border-radius:0 0 10px 10px red;
 }
+.borde h4::after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #eb5d1e;
+	top:2.5rem;
+    bottom: 0;
+	left:33rem;
+}
 /*   education start  */
 #education{
 	padding-bottom:2rem;
 }
 #education h3{
 	width: 120px;
-    height: 20px;
-    border-radius: 0px 70px;
+    border-radius: 30px;
     background: #73AD21;
-    padding: 20px;
+    padding: 10px;
 	font-size:1rem;
 	text-align:center;
+}
+#education h4{
+	font-size:2rem;
+	font-weight:600;
+	position:relative;
 }
 #skill{
 	padding-bottom:2rem;
@@ -150,6 +165,7 @@ border{
 	font-size:2rem;
 	font-weight:600;
 	letter-spacing:2px;
+	position:relative;
 }
 #skill label{
 	font-size:1.4rem;
@@ -157,4 +173,34 @@ border{
 }
 #project{
 	padding-bottom:2rem;
+}
+#project h4{
+		font-size:2rem;
+	font-weight:600;
+	letter-spacing:2px;
+	position:relative;
+}
+.address{
+	box-shadow:0px 0px 5px 3px black;
+}
+.cont{
+	box-sadow:0px 0px 2px 3px black;
+	border:1px solid black;
+}
+#contect h4{
+	font-size:2rem;
+	font-weight:600;
+	letter-spacing:2px;
+	position:relative;
+}
+#contect iconify-icon{
+    width:44px;
+	height:44px;
+	color: #eb5d1e;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	background-color:#fdf1ec;
+	border-radius:50%;
+	font-size:1.4rem;
 }
