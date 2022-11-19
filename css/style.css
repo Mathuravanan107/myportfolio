@@ -53,10 +53,7 @@ nav li{
 }	
 /* benner section */
 #hero{
-	padding-bottom:2rem;
-	background:url('')top right no-repeat;
-	background-size:cover;
-	position:relative;
+	background-color:#e9e8e6;
 }
 @media(min-width:1024px){
 	.clean h1{
@@ -143,12 +140,14 @@ border{
 }
 /*   education start  */
 #education{
-	padding-bottom:2rem;
+	padding-bottom:2.5rem;
+	background-color:#e9e8e6;
 }
 #education h3{
 	width: 120px;
     border-radius: 30px;
-    background: #73AD21;
+    background: #7395ae;
+	color:white;
     padding: 10px;
 	font-size:1rem;
 	text-align:center;
@@ -157,6 +156,16 @@ border{
 	font-size:2rem;
 	font-weight:600;
 	position:relative;
+}
+#education ul li{
+	font-size:1.2rem;
+	font-weight:600;
+}
+.btn{
+	height:40px;
+	background-color:#557a95 !important;
+	color:white !important;
+	
 }
 #skill{
 	padding-bottom:2rem;
@@ -168,7 +177,7 @@ border{
 	position:relative;
 }
 #skill label{
-	font-size:1.4rem;
+	font-size:1.2rem;
 	font-weight:600;
 }
 #project{
@@ -186,6 +195,9 @@ border{
 .cont{
 	box-sadow:0px 0px 2px 3px black;
 	border:1px solid black;
+}
+#contect{
+	padding-bottom:2rem;
 }
 #contect h4{
 	font-size:2rem;
