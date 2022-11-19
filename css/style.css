@@ -19,7 +19,7 @@ header{
     overflow-y: auto;
 }
 nav{
-	margin-top:10rem;
+	margin-top:8rem;
 }
 .nav-menu{
 	padding:0;
@@ -49,7 +49,7 @@ nav li{
 }
 .nav-menu iconify-icon:hover{
 	color: #fff;
-    background: #0563bb;
+    background: #7395ae;
 }	
 /* benner section */
 #hero{
@@ -145,7 +145,7 @@ border{
 }
 #education h3{
 	width: 120px;
-    border-radius: 30px;
+    border-radius: 30px 10px;
     background: #7395ae;
 	color:white;
     padding: 10px;
@@ -165,7 +165,9 @@ border{
 	height:40px;
 	background-color:#557a95 !important;
 	color:white !important;
-	
+}
+.node{
+	border-radius:10%;
 }
 #skill{
 	padding-bottom:2rem;
@@ -189,13 +191,6 @@ border{
 	letter-spacing:2px;
 	position:relative;
 }
-.address{
-	box-shadow:0px 0px 5px 3px black;
-}
-.cont{
-	box-sadow:0px 0px 2px 3px black;
-	border:1px solid black;
-}
 #contect{
 	padding-bottom:2rem;
 }
@@ -208,11 +203,11 @@ border{
 #contect iconify-icon{
     width:44px;
 	height:44px;
-	color: #eb5d1e;
+	color: #fff;
 	text-align:center;
 	justify-content:center;
 	align-items:center;
-	background-color:#fdf1ec;
+	background-color:#7395ae;
 	border-radius:50%;
 	font-size:1.4rem;
 }
