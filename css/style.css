@@ -166,6 +166,9 @@ border{
 	background-color:#557a95 !important;
 	color:white !important;
 }
+.btn:hover{
+	background-color:#7395ae !important;
+}
 .node{
 	border-radius:10%;
 }
