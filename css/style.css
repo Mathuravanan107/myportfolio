@@ -57,18 +57,30 @@ nav li{
 	background-color:#e9e8e6;
 }
 @media(min-width:1024px){
-	.clean h1{
-		font-size:4rem !important;
-	}
+.clean h1{
+    font-size:4rem !important;
+	top:12.5rem !important ;
+	left:7.5rem !important;
+}
+.clean p{
+	top:15rem !important;
+	left:7.5rem !important;
+	right:0;
+}
+#hero .moon {
+	top:18rem !important;
+	left:7rem!important;
+	right:0;
+}
 }
 .clean h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 56px;
     color: #45505b;
 	position:absolute;
-	top:12.5rem;
-	left:7.5rem;
+	top:10.5rem;
+	left:1.5rem;
 	right:0;
 }
 .clean p{
@@ -77,8 +89,8 @@ nav li{
     font-size: 26px;
     font-family: "Poppins", sans-serif;
 	position:absolute;
-	top:15rem;
-	left:7.5rem;
+	top:13rem;
+	left:2.5rem;
 	right:0;
 }
 #hero .clean{
@@ -92,9 +104,12 @@ nav li{
     margin-right: 20px;
     transition: 0.3s;
 	position:absolute;
-	top:18rem;
-	left:7rem;
+	top:21rem;
+	left:1rem;
 	right:0;
+}
+#hero img{
+	height:100vh;
 }
 .moon iconify-icon{
 	padding-left:1rem;
@@ -116,7 +131,7 @@ main{
 	font-weight:600;
 }
 #about img{
-	box-shadow:0px 0px 5px 3px black;
+	box-shadow:0px 0px 5px 3px #d5cdcd;
 }
 #about span{
 	margin-left:4rem;
@@ -125,19 +140,8 @@ main{
 	font-size:1.4rem;
 	font-weight:600;
 }
-border{
-	border-radius:0 0 10px 10px red;
-}
 .borde h4::after{
-	content: "";
-    position: absolute;
-    display: block;
-    width: 60px;
-    height: 2px;
-    background: #eb5d1e;
-	top:2.5rem;
-    bottom: 0;
-	left:33rem;
+	
 }
 /*   education start  */
 #education{
@@ -168,10 +172,14 @@ border{
 	color:white !important;
 }
 .btn:hover{
-	background-color:#7395ae !important;
+	background-color:#77aed7!important;
+	cursor:pointer;
 }
 .node{
-	border-radius:10%;
+	cursor:pointer;
+}
+.node:hover{
+	box-shadow:0px 0px 5px 10px #cfcbcb;
 }
 #skill{
 	padding-bottom:2rem;
@@ -209,9 +217,20 @@ border{
 	height:44px;
 	color: #fff;
 	text-align:center;
+	display:flex;
 	justify-content:center;
 	align-items:center;
 	background-color:#7395ae;
 	border-radius:50%;
 	font-size:1.4rem;
+}
+@media(min-width:320px){
+	header{
+		display:none;
+	}
+}
+@media(min-width:1024px){
+	header{
+		display:inline;
+	}
 }
