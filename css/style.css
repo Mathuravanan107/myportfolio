@@ -203,6 +203,15 @@ main{
 	letter-spacing:2px;
 	position:relative;
 }
+.edit:hover{
+	box-shadow:0 0 5px 2px #a79e9e;
+    transform: ease all 0.5s;
+    transform: translatey(-3px);
+    margin-top: -15px;
+}
+.edit img{
+	width:40rem;
+}
 #contect{
 	padding-bottom:2rem;
 }
