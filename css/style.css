@@ -56,6 +56,23 @@ nav li{
 #hero{
 	background-color:#e9e8e6;
 }
+@media(min-width:768px){
+.clean h1{
+    font-size:4rem !important;
+	top:12.5rem !important ;
+	left: 3.5rem !important;
+}
+.clean p{
+	top:15rem !important;
+	left: 3.5rem !important;
+	right:0;
+}
+#hero .moon {
+	top:18rem !important;
+	left:3rem!important;
+	right:0;
+}
+}
 @media(min-width:1024px){
 .clean h1{
     font-size:4rem !important;
@@ -158,12 +175,12 @@ main{
 	text-align:center;
 }
 #education h4{
-	font-size:2rem;
+	font-size:2.3rem;
 	font-weight:600;
 	position:relative;
 }
 #education ul li{
-	font-size:1.2rem;
+	font-size:1.6rem;
 	font-weight:600;
 }
 .btn{
@@ -232,6 +249,9 @@ main{
 	background-color:#7395ae;
 	border-radius:50%;
 	font-size:1.4rem;
+}
+footer p,span{
+	font-size:1.3rem;
 }
 @media(min-width:320px){
 	header{
