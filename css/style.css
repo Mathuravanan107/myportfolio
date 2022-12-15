@@ -164,8 +164,42 @@ main{
 	font-weight:600;
 }
 }
-.borde h4::after{
-	
+.borde::after{
+	content:"";
+	position:absolute;
+	display:block;
+	width:60px;
+	height:2px;
+	background:#eb5d1e;
+	top:2.5rem;
+	bottom:0;
+	left:7rem;
+}
+@media(min-width:768px){
+.borde::after{
+	content:"";
+	position:absolute;
+	display:block;
+	width:60px;
+	height:2px;
+	background:#eb5d1e;
+	top:2.5rem;
+	bottom:0;
+	left:20rem;
+}
+}
+@media(min-width:1024px){
+.borde::after{
+	content:"";
+	position:absolute;
+	display:block;
+	width:60px;
+	height:2px;
+	background:#eb5d1e;
+	top:2.5rem;
+	bottom:0;
+	left:33rem;
+}
 }
 /*   education start  */
 #education{
@@ -261,12 +295,12 @@ footer p,span{
 	font-size:1.3rem;
 }
 @media(min-width:320px){
-	header{
+header{
 		display:none;
 	}
 }
 @media(min-width:1024px){
-	header{
+header{
 		display:inline;
 	}
 }
