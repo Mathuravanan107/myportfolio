@@ -53,87 +53,118 @@ nav li{
 }	
 
 /* benner section */
-#hero{
-	
+
+/*---------*/
+
+.banner{
+	background-image:url("../img/homepage1.jpg");
+	width:100%;
+	background-size:cover;
+	position:relative;
 }
-#hero iconify-icon:hover{
-	color: #7799db;
-}
-@media(min-width:768px){
-.clean h1{
-    font-size:4rem !important;
-	top:12.5rem !important ;
-	left: 3.5rem !important;
-}
-.clean p{
-	top:15rem !important;
-	left: 3.5rem !important;
-	right:0;
-}
-#hero .moon {
-	top:18rem !important;
-	left:3rem!important;
-	right:0;
-}
-}
-@media(min-width:1024px){
-.clean h1{
-    font-size:4rem !important;
-	top:12.5rem !important ;
-	left:7.5rem !important;
-}
-.clean p{
-	top:15rem !important;
-	left:7.5rem !important;
-	right:0;
-}
-#hero .moon {
-	top:18rem !important;
-	left:7rem!important;
-	right:0;
-}
-}
-.clean h1{
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 56px;
-    color: #45505b;
+.banner::after{
+	content:"";
+	background-color:rgba(13,30,45,0.6);
+	opacity:1;
 	position:absolute;
-	top:10.5rem;
-	left:1.5rem;
+	top:0;
 	right:0;
+	left:0;
+	bottom:0;
 }
-.clean p{
-	color: #45505b;
-    margin: 15px 0 0 0;
-    font-size: 26px;
-    font-family: "Poppins", sans-serif;
-	position:absolute;
-	top:13rem;
-	left:2.5rem;
-	right:0;
+.banner-title{
+	z-index:997;
+	position:relative;
+	padding:14rem 0;
+	margin:0;
+	margin-right:0!important;
 }
-#hero .clean{
-	margin-top:0rem;
+.banner-title h1{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top:2rem;
 }
-#hero .moon {
-	margin-top:1rem;
+.banner-title p {
+  font-size:2rem;
+  color: #fff;
+  margin-bottom:1rem;
+  line-height:2.5rem;
+}
+#home .moon {
+	margin-top:13rem;
 	font-size: 24px;
     display: inline-block;
     line-height: 1;
-    margin-right: 20px;
+    margin-right: 0px;
     transition: 0.3s;
 	position:absolute;
-	top:21rem;
-	left:1rem;
+	top:17rem;
+	left:0;
 	right:0;
-}
-.imf img{
-	width:100%;
+	margin-bottom:10rem;
 }
 .moon iconify-icon{
-	padding-left:1rem;
-	color: #45505b;
+	padding-left:0.3rem;
+	color:#fff;
+}
+@media(min-width:768px){
+.banner-title h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 0rem;
+}
+.banner-title p {
+  font-size:2rem;
+  color: #fff;
+  margin-bottom:1rem;
+  line-height:2.5rem;
+}
+#home .moon {
+	margin-top:13rem;
+	font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 0px;
+    transition: 0.3s;
+	position:absolute;
+	top:8rem;
+	left:0;
+	right:0;
+	margin-bottom:10rem;
+}
+}
+@media(min-width:1024px){
+.banner-title{
+	left:40px;
+	margin-right:0;
+}
+.banner-title h1{
+    color: #fff;
+    font-size: 3.4rem;
+    font-weight: 900;
+    margin-top: 0rem;
+}
+.banner-title p {
+  font-size:2rem;
+  color: #fff;
+  margin-bottom:1rem;
+  line-height:2.5rem;
+}
+#home .moon {
+	margin-top:13rem;
+	font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 0;
+    transition: 0.3s;
+	position:absolute;
+	top:9rem;
+	left:1rem;
+	right:0;
+	margin-bottom:10rem;
+}
 }
 /* About section start  */
 main{
@@ -173,7 +204,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#eb5d1e;
+	background:#4cccf1;
 	top:2.5rem;
 	bottom:0;
 	left: calc(50% - 30px);
@@ -185,7 +216,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#eb5d1e;
+	background:#4cccf1;
 	top:2.5rem;
 	bottom:0;
 	left:calc(50% - 30px)
@@ -198,7 +229,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#eb5d1e;
+	background:#4cccf1;
 	top:2.5rem;
 	bottom:0;
 	left:calc(50% - 30px)
@@ -267,6 +298,17 @@ main{
 	letter-spacing:2px;
 	position:relative;
 }
+@media(min-width:768px){
+.sec{
+	margin-bottom:20px;
+}
+}
+@media(min-width:1024px){
+.firs{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+}
 .edit:hover{
 	box-shadow:0 0 5px 2px #a79e9e;
     transform: ease all 0.5s;
@@ -300,8 +342,11 @@ main{
 footer p,span{
 	font-size:1.3rem;
 }
-.namel{
-	align-items:center;
+.boln{
+	padding:20px 0;
+}
+.noln{
+	margin-top:20px;
 }
 @media(min-width:320px){
 header{
