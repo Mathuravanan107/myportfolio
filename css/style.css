@@ -163,7 +163,6 @@ nav li{
 	top:9rem;
 	left:1rem;
 	right:0;
-	margin-bottom:10rem;
 }
 }
 /* About section start  */
@@ -204,7 +203,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#4cccf1;
+	background:#7395ae;
 	top:2.5rem;
 	bottom:0;
 	left: calc(50% - 30px);
@@ -216,7 +215,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#4cccf1;
+	background:#7395ae;
 	top:2.5rem;
 	bottom:0;
 	left:calc(50% - 30px)
@@ -229,7 +228,7 @@ main{
 	display:block;
 	width:60px;
 	height:2px;
-	background:#4cccf1;
+	background:#7395ae;
 	top:2.5rem;
 	bottom:0;
 	left:calc(50% - 30px)
@@ -237,7 +236,7 @@ main{
 }
 /*   education start  */
 #education{
-	padding-bottom:2.5rem;
+	padding: 1.5rem 1rem;
 	background-color:#e9e8e6;
 }
 #education h3{
@@ -274,7 +273,7 @@ main{
 	box-shadow:0px 0px 5px 10px #cfcbcb;
 }
 #skill{
-	padding-bottom:2rem;
+	padding: 2rem 0;
 }
 #skill h4{
 	font-size:2rem;
@@ -291,6 +290,7 @@ main{
 }
 #project{
 	padding-bottom:2rem;
+	margin-top: 45px;
 }
 #project h4{
 	font-size:2rem;
@@ -300,13 +300,12 @@ main{
 }
 @media(min-width:768px){
 .sec{
-	margin-bottom:20px;
+	margin-top: 48px;
 }
 }
-@media(min-width:1024px){
-.firs{
-	margin-top:10px;
-	margin-bottom:20px;
+@media(min-width:992px){
+.sec{
+	margin-top:0;
 }
 }
 .edit:hover{
